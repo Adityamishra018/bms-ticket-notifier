@@ -15,6 +15,11 @@ from datetime import datetime
 from dataclasses import dataclass, field
 from urllib.parse import urlparse
 import requests
+from dotenv import load_dotenv
+import requests
+
+# Load environment variables from .env file if present
+load_dotenv()
 
 # ──────────────────────────────────────────────────────────────────────
 # CONFIGURATION — edit these or set via env vars
